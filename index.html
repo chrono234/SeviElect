@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/Logo_remaster.jpeg" type="image/logo_icon">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- iconos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <title>SeviElect Electricidad y Redes</title>
+</head>
+<body class="container-fluid">
+  <!-- Navegation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img class="nav_img" src="assets/Logo_remaster.jpeg" width="50" alt="Logo de la pagina web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi"><i class="bi bi-file-person"></i>Nuestro trabajo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos"><i class="bi bi-card-list"></i>Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios"><i class="bi bi-people-fill"></i>Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto"><i class="bi bi-envelope"></i>Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Corousel -->
+  <div id="carouselExampleIndicators" class="carousel slide container">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets\electrical-field-images\1.jpg" class="d-block w-100" alt="img_carousel-1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\2.jpg" class="d-block w-100" alt="img_carousel-2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\3.jpg" class="d-block w-100" alt="img_carousel-3">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\4.jpg" class="d-block w-100" alt="img_carousel-4">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\5.jpg" class="d-block w-100" alt="img_carousel-5">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\6.jpg" class="d-block w-100" alt="img_carousel-6">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\7.jpg" class="d-block w-100" alt="img_carousel-7">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\8.jpg" class="d-block w-100" alt="img_carousel-8">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\9.jpg" class="d-block w-100" alt="img_carousel-9">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\10.jpg" class="d-block w-100" alt="img_carousel-10">
+      </div>
+      <div class="carousel-item">
+        <img src="assets\electrical-field-images\11.jpg" class="d-block w-100" alt="img_carousel-11">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-obscura">
+    <div class="contenedor text-center">
+      <h2 class="seccion-titulo">Randall Mena Propietario</h2>
+      <div class="container-fluid logo_icon"></div>
+      <div class="owner-picture container-fluid" alt="owner-picture"></div>
+      <p class="seccion-texto">Somos una empresa dedicada a la construcción de instalaciones eléctricas y cableado estructurado,enfocada en brindar a nuestros clientes un servicio de muy alta calidad,ya se cuenta con más de 30 años de experiencia en el ámbito eléctrico y 25 en cableado estructurado.
+        Contamos también con los servicios de emergencias,mantenimiento preventivo y correctivo las 24 horas del día.
+        En el área de ingeniería nuestro personal debidamente incorporado al cfia se encuentra totalmente preparado a la hora de llevar a cabo la tareas de diseños planos e inspecciones.
+        Para mayor tranquilidad a nuestros clientes,todos nuestros proyectos,son inspeccionados por su mismo propietario ,en compañia de su equipo profesional.
+        Brindamos nuestros servicios a empresas industrias,comercios y casas de habitación.</p>
+    </div>
+  </section>
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos seccion-clara">
+    <div class="contenido contenedor text-center container-fluid">
+      <h2 class="seccion-titulo">Proyectos</h2>
+      <div class="project-1 ">
+        <div class="info">
+          <h3>Cableado estructurado tribunales de justicia segundo circuito Goycochea </h3>  
+          <p>Subcontrato a la empresa Amphora gmpm</p>
+          <a href="https://chrono234.github.io/images-proyect-1.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">Galería</button></a>
+        </div>
+        <div class="project-1">
+          <img class="project-img" src="assets/structured-cabling/sc1.jpg" alt="imagen-project1">
+        </div>
+      </div>
+      <div class="project-2 ">
+        <div class="info">
+          <h3>Proyecto colocación de cableado UTP para access point la Uruca</h3>
+          <p>Capris la Uruca subcontratado a la empresa Amphora</p>
+          <a href="https://chrono234.github.io/images-proyect-2.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">Galería</button></a>
+        </div>
+        <div class="project-2 ">
+          <img class="project-img" src="assets/utp-cabling/uc-1.jpg" alt="imagen-project2">
+        </div>
+      </div>
+      <div class="project-3 ">
+        <div class="info">
+          <h3>Proyecto universidad nacional cableado UTP para acceso point </h3>
+          <p>Subcontrato a la empresa gmpm </p>
+          <a href="https://chrono234.github.io/images-proyect-3.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">Galería</button></a>
+        </div>
+        <div class="project-3">
+          <img class="project-img" src="assets/un-utp-cabling/un-1.jpg" alt="imagen-project1">
+        </div>
+      </div>
+      <div class="project-4 ">
+        <div class="info">
+          <h3>Proyecto lakus quebrada amarilla,Garabito, instalación eléctrica completa </h3>
+          <p>Subcontrato a la constructora keybell</p> 
+          <a href="https://chrono234.github.io/images-proyect-4.html" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">Galería</button></a>
+        </div>
+        <div class="project-4">
+          <img class="project-img" src="assets/structured-cabling/sc1.jpg" alt="imagen-project1">
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- Testimonios -->
+  <section id="testimonios" class=" testimonios seccion-clara text-center">
+    <h2 class="seccion-titulo">Testimony</h2>
+    <h3 class="seccion-descripcion">This are some of the testimonys of my customers...</h3>
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide2" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="quote">“</div>
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+            <div class="testimonio-info">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="cliente">Gino</p>
+              <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="quote">“</div>
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+            <div class="testimonio-info">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="cliente">Nora</p>
+              <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="quote">“</div>
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+            <div class="testimonio-info">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="cliente">Leonardo</p>
+              <p class="cargo">Director de AprendeAProgramar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-obscura ">
+    <div class="container ">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Comencemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctenos para comenzar su proyecto de cableado estructurado o eléctrico y haremos que su visión sea una realidad.<br><br>
+            <p>Estamos ubicados en la Provincia de
+              San José, Alajuelita
+            </p>
+            <p>Tel: (506) 47008972 - 86370558 </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:sevielec4@gmaii.com">
+                sevielec4@gmaii.com
+                <i class="bi bi-envelope-check-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body> 
+</html>
