@@ -48,6 +48,10 @@
 .contenedor{
   margin-top: 2rem;
 }
+h3:hover{
+  color: gold;
+  transition: color 3s;
+}
 .owner-picture{
   background-image: url(assets/electrical-field-images/13.jpg);
   background-position: center;
